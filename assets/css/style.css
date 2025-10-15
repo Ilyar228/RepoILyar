@@ -29,3 +29,20 @@ body {
   margin-right: 12px;
   text-decoration: none;
 }
+
+.site-main .hero {
+  padding: 24px 0;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  padding-bottom: 24px;
+}
+
+.feature-item {
+  padding: 12px;
+  border: 1px solid #e8e8e8;
+  border-radius: 8px;
+}
